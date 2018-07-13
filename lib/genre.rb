@@ -1,14 +1,14 @@
-class Genre 
-  attr_accessor :name, :songs 
-  @@all=[] 
+class Genre
+  attr_accessor :name, :songs
+  @@all=[]
 
   def initialize
     save
-  end 
+  end
 
-  def self.all 
-    @@all 
-  end 
+  def self.all
+    @@all
+  end
   
   def save
     @@all<self
@@ -17,4 +17,4 @@ class Genre
   def self.reset_all
     @@all.clear
   end
-end 
+end
