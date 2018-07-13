@@ -21,4 +21,8 @@ class Genre
   def self.count
     @@all.size
   end
+
+  def self.find_by_name(name)
+    @@all.detect {|artist| artist.name ==name} 
+  end
 end
