@@ -1,3 +1,4 @@
-class Song 
+class Song
   attr_accessor :name 
-end 
+  @@all=[] 
+end
