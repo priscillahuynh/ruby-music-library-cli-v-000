@@ -1,10 +1,10 @@
 class Song
   attr_accessor :name
-  @@all=[] 
+  @@all=[]
 
   def initialize
     save
-  end 
+  end
 
   def save
     @@all<self
@@ -13,4 +13,5 @@ class Song
   def self.reset_all
     @@all.clear
   end
+  
 end
