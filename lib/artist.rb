@@ -21,4 +21,8 @@ class Artist
   def self.count
     @@all.size
   end
+
+  def self.find_by_name(name) 
+    
+  end
 end
