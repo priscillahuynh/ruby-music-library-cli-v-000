@@ -19,6 +19,6 @@ class Artist
   end
 
   def self.count
-    @@all.size 
+    @@all.size
   end
 end
