@@ -6,10 +6,10 @@ class Song
     save
   end
   
-  def self.all 
-    @@all 
-  end 
-  
+  def self.all
+    @@all
+  end
+
   def save
     @@all<self
   end
@@ -17,5 +17,5 @@ class Song
   def self.reset_all
     @@all.clear
   end
-  
+
 end
