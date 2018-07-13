@@ -9,7 +9,7 @@ class Genre
   def self.all
     @@all
   end
-  
+
   def save
     @@all<self
   end
@@ -19,6 +19,6 @@ class Genre
   end
 
   def self.count
-    @@all.size 
+    @@all.size
   end
 end
