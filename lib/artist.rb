@@ -8,17 +8,17 @@ class Artist
 
   def initialize
     save
-  end 
+  end
 
   def save
     @@all<self
   end
 
-  def self.count 
-    @@all.size 
-  end 
-  
   def self.reset_all
     @@all.clear
+  end
+
+  def self.count
+    @@all.size 
   end
 end
