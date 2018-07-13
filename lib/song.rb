@@ -5,7 +5,7 @@ class Song
   def initialize
     save
   end
-  
+
   def self.all
     @@all
   end
@@ -19,6 +19,6 @@ class Song
   end
 
   def self.count
-    @@all.size 
+    @@all.size
   end
 end
